@@ -6,7 +6,7 @@ import java.io.*;
 public class App
 {
     public static void main( String[] args ) throws Exception {
-        File matriks = new File ("C:\\This PC\\Documents\\Kuliah\\sem 4\\Prak RPL BO\\UG_RPLBO_71200598\\TAS-71200598\\file.txt");
+        File matriks = new File ("C:\\Users\\HP\\Documents\\Kuliah\\Sem 5\\TAS-71200598\\DiagonalMatriks\\file.txt");
         BufferedReader br = new BufferedReader(new FileReader(matriks));
         String st;
         st = br.readLine();
